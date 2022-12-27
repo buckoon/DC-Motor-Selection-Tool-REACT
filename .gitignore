@@ -1,0 +1,9 @@
+**
+!/public
+!/public/**
+!/src
+!/src/**
+!/.gitignore
+!/package-lock.json
+!/package.json
+!/README.md

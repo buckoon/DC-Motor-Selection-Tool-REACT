@@ -1,0 +1,4 @@
+.motorSelect {
+  display: flex;
+  flex-direction: column;
+}
