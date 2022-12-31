@@ -1,4 +1,5 @@
 import React from "react";
+import "./Motorselect.css";
 
 export default function MotorSelect() {
   const [motorState, setMotorState] = React.useState({});
