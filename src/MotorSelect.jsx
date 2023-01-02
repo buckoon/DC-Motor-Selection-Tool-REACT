@@ -22,18 +22,22 @@ export default function MotorSelect() {
             Select your motor
           </label>
           <div>
+            <label className="winding">1.Please select a motor size and winding:</label>  
             <select
+                
               className="select 1"
               id="windingOption"
               value={motorState.windingOption}
               onChange={handleChange}
               name="windingOption"
             >
+              
               <option value="AKM23C">AKM23C</option>
               <option value="AKM23D">AKM23D</option>
             </select>
           </div>
           <div>
+          <label className="mount">2.Please select a motor mount:</label> 
             <select
               className="select 1"
               id="mountOption"
@@ -46,7 +50,9 @@ export default function MotorSelect() {
             </select>
           </div>
           <div>
+          <label className="mount">3.Please select a motor connector:</label>
             <select
+              className="select 1"
               id="connectorOption"
               value={motorState.connectorOption}
               onChange={handleChange}
@@ -58,7 +64,9 @@ export default function MotorSelect() {
           </div>
 
           <div>
+          <label className="mount">4. Please select weather your motor has a brake or not:</label>
             <select
+              className="select 1"
               id="brakeOption"
               value={motorState.brakeOption}
               onChange={handleChange}
@@ -69,7 +77,9 @@ export default function MotorSelect() {
             </select>
           </div>
           <div>
+          <label className="mount">5. Please select which feedback your motor has:</label>
             <select
+              className="select 1"
               id="feedbackOption"
               value={motorState.feedbackOption}
               onChange={handleChange}
@@ -80,7 +90,9 @@ export default function MotorSelect() {
             </select>
           </div>
           <div>
+          <label className="mount">6. Would you like a shaft seal:</label>
             <select
+              className="select 1"
               id="shaftSealOption"
               value={motorState.shaftSealOption}
               onChange={handleChange}
@@ -93,7 +105,7 @@ export default function MotorSelect() {
         </div>
       </form>
       {
-        <div>
+        <div className= "result">
           {" "}
           {motorState.windingOption}
           {motorState.connectorOption} {motorState.mountOption}{" "}
