@@ -58,7 +58,8 @@
     width: 50%;
     height: 50px;
     font-size: 20px;
-    color: white;
+    color: black;
+    font-weight: bold;
     background-color: rgba(202, 194, 194, 0.5);
     border-radius: 10px;
   

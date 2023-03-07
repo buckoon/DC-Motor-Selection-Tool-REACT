@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "./images/Oracle.png";
-import "./Oracleimage.css";
+import logo from "./images/Km5.jpg";
+import "./KollmorgenImage.css";
 
-export default function OracleImage() {
+export default function KollmorgenImage() {
   return (
     <div>
       <img src={logo} alt="" className="hero--photo" />

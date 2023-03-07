@@ -1,7 +1,7 @@
 body {
   margin: 0;
   /*background-image: url(./images/Kollmorgen.png);*/
-  animation: slideshow 90s infinite;
+  animation: slideshow 50s infinite;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -18,21 +18,18 @@ body {
 
 @keyframes slideshow {
   0% {
-    background-image: url(./images/Kollmorgen.png);
-  }
-  25% {
-    background-image: url(https://www.kollmorgen.com/sites/default/files/2g-motion-system-brochure.jpg);
-  }
-  50% {
     background-image: url(https://www.automation-fair.com/wp-content/uploads/24948_Kollmorgen-2G-Motion-System-AKD2G-Kollmorgen_AKM2G-Cable-1-scaled.jpg);
   }
-  75% {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYyx27-RPUPi2fuBABCz4bDoQRwoDP6g2elA&usqp=CAU);
+  50% {
+    background-image: url(https://www.kollmorgen.com/sites/default/files/Kollmorgen_Servo_Technique_Centralized_Decentralized_Machine.png);
   }
-  100% {
-    background-image: url(https://www.kollmorgen.com/sites/default/files/2g-motion-system-brochure.jpg);
+  100%{
+    background-image: url(https://www.motioncontroltips.com/wp-content/uploads/2019/03/Kollmorgen-PR-Pic.png);
   }
+
 }
+ 
+
 
 
 
