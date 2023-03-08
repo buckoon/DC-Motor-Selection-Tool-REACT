@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./images/Km5.jpg";
+import logo from "./images/Oracle.png";
 import "./KollmorgenImage.css";
 
 export default function KollmorgenImage() {

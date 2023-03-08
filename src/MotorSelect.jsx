@@ -45,8 +45,8 @@ export default function MotorSelect() {
               onChange={handleChange}
               name="mountOption"
             >
-              <option value="AC">AC</option>
-              <option value="AN">AN</option>
+              <option value="AC">AC for std nema mount</option>
+              <option value="AN">AN for non nema</option>
             </select>
           </div>
           <div>
@@ -85,7 +85,7 @@ export default function MotorSelect() {
               onChange={handleChange}
               name="feedbackOption"
             >
-              <option value="C">CC hyperface</option>
+              <option value="C">C for hyperface</option>
               <option value="R">R for resolver</option>
             </select>
           </div>
@@ -106,10 +106,10 @@ export default function MotorSelect() {
       </form>
       {
         <div className= "result">
-          {" "}
-          {motorState.windingOption}
-          {motorState.connectorOption} {motorState.mountOption}{" "}
-          {motorState.brakeOption} {motorState.shaftSealOption}
+          
+          {motorState.windingOption}{"-"}
+          {motorState.connectorOption}{motorState.mountOption}
+          {motorState.brakeOption}{motorState.feedbackOption}{motorState.shaftSealOption}
         </div>
       }
       <div></div>
