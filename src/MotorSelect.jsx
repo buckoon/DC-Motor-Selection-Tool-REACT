@@ -45,8 +45,8 @@ export default function MotorSelect() {
               onChange={handleChange}
               name="mountOption"
             >
-              <option value="AC">AC for std nema mount</option>
-              <option value="AN">AN for non nema</option>
+              <option value="AC">AC for std nema-mount</option>
+              <option value="AN">AN for non-nema</option>
             </select>
           </div>
           <div>
@@ -58,7 +58,7 @@ export default function MotorSelect() {
               onChange={handleChange}
               name="connectorOption"
             >
-              <option value="C">C dual connector</option>
+              <option value="C">C for dual connector</option>
               <option value="9">9 single connector</option>
             </select>
           </div>
@@ -108,7 +108,7 @@ export default function MotorSelect() {
         <div className= "result">
           
           {motorState.windingOption}{"-"}
-          {motorState.connectorOption}{motorState.mountOption}
+          {motorState.mountOption}{motorState.connectorOption}
           {motorState.brakeOption}{motorState.feedbackOption}{motorState.shaftSealOption}
         </div>
       }
